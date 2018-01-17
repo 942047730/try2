@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0;
+padding:0;
+font-size:12px;
+}
+body{
+	background-color: #FFF;
+	font-size: 12px;
+}
+.top{
+height:100px;
+width:100%;
+	}
+.top_content{
+	padding-left:50px;
+	 width:1000px;;
+ margin:0 auto;
+ 	margin-top: 5px;
+	}
+.nav{
+height:20px;
+width:1000px;
+margin-top:0;
+}
+.nav_content{
+	background:url(images/navi_bar.gif) repeat-x;
+	width:1000px;
+	height:50px;
+	padding-left:150px;
+	}
+.nav li{
+    float:left;
+    list-style:none;
+    width:70px;
+    text-align:center;
+    line-height:20px;
+	font-size:20px;
+}
